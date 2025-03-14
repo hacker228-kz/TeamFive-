@@ -1,1 +1,127 @@
 @import "tailwindcss";
+
+:root {
+  --font-family: "Inter", sans-serif;
+  --second-family: "Manrope", sans-serif;
+  --font3: "Outfit", sans-serif;
+  --font4: "Covered By Your Grace", sans-serif;
+  --font5: "Shadows Into Light Two", sans-serif;
+  --font6: "Roboto", sans-serif;
+  --font7: "Abhaya Libre ExtraBold", sans-serif;
+  --font8: "STAR7", sans-serif;
+}
+
+/* Подключение шрифтов */
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("/fonts/Manrope/Manrope-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("/fonts/Manrope/Manrope-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("/fonts/Outfit/Outfit-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Covered By Your Grace";
+  src: url("/public/fonts/CoveredByYourGrace/CoveredByYourGrace-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Shadows Into Light Two";
+  src: url("/fonts/ShadowsIntoLightTwo/ShadowsIntoLightTwo-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto/Roboto-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto/Roboto-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Abhaya Libre ExtraBold";
+  src: url("/fonts/AbhayaLibre/AbhayaLibre-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "STAR7";
+  src: url("/fonts/STAR7/STAR7-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Применение классов Tailwind */
+@layer base {
+  .font-inter {
+    font-family: "Inter", sans-serif !important;
+  }
+
+  .font-manrope {
+    font-family: "Manrope", sans-serif !important;
+  }
+
+  .font-outfit {
+    font-family: "Outfit", sans-serif !important;
+  }
+
+  .font-covered {
+    font-family: "Covered By Your Grace", cursive !important;
+  }
+
+  .font-shadows {
+    font-family: "Shadows Into Light Two", sans-serif !important;
+  }
+
+  .font-roboto {
+    font-family: "Roboto", sans-serif !important;
+  }
+
+  .font-abhaya {
+    font-family: "Abhaya Libre ExtraBold", sans-serif !important;
+  }
+
+  .font-star7 {
+    font-family: "STAR7", sans-serif !important;
+  }
+}
