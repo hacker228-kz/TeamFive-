@@ -3,10 +3,11 @@ import team1 from "../assets/team1.svg";
 import span from "../assets/span.svg";
 import team2 from "../assets/team2.svg";
 import team3 from "../assets/team3.svg";
+import { Link } from "react-router-dom";
 
 const Team = () => {
   return (
-    <div>
+    <div className="w-full overflow-hidden relative">
       <h4 className="w-[180px] h-[36px] justify-center flex-shrink-0 text-[#EEC044] text-center font-covered text-[24px] leading-[36px] mt-[43px] ml-[690px]">
         Team Members
       </h4>
@@ -80,7 +81,13 @@ const Team = () => {
         </div>
       </div>
 
-      <div className="w-full h-[234.5px] bg-[#F8F7F0] mt-[110px]"></div>
+      <div className="w-full h-[234.5px] bg-[#F8F7F0] mt-[110px]">
+        <ul>
+          <li>
+            <Link to="/services">Next Slide</Link>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };

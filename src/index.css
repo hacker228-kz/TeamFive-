@@ -79,10 +79,9 @@
 }
 
 @font-face {
-  font-family: "Abhaya Libre ExtraBold";
+  font-family: "Abhaya Libre";
   src: url("/fonts/AbhayaLibre/AbhayaLibre-ExtraBold.woff2") format("woff2");
   font-weight: 800;
-  font-style: normal;
 }
 
 @font-face {
@@ -119,7 +118,8 @@
   }
 
   .font-abhaya {
-    font-family: "Abhaya Libre ExtraBold", sans-serif !important;
+    font-family: "Abhaya Libre", sans-serif;
+    font-weight: 800;
   }
 
   .font-star7 {
