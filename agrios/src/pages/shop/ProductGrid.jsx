@@ -97,7 +97,7 @@ export const ProductGrid = () => {
     <div className="grid grid-cols-3 gap-[30px] max-md:grid-cols-2 max-sm:grid-cols-1 ">
       {filteredProducts.length > 0 ? (
         filteredProducts.map((product) => (
-          <ProductCard key={product.id} product={product} className="transition-transform duration-300 hover:scale-[1.02]" />
+          <ProductCard key={product.id} product={product}  />
         ))
       ) : (
         <div className="col-span-3 text-center py-10 text-gray-500">
