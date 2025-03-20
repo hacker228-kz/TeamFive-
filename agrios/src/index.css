@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme{
+    --font-first:"Covered By Your Grace", cursive;
+}
+
