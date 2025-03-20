@@ -65,6 +65,7 @@ const Footer = () => {
               Explore
             </h3>
             <div className="flex w-[55px] shrink-0 h-1 mt-[15px] rounded-sm border-t-4 border-[rgba(75,175,71,1)]" />
+            <div className="w-[7px] h-[7px] bg-[rgba(75,175,71,1)] rounded-full ml-[65px] -mt-[5px]" />
             <nav className="mt-7">
               {[
                 "About",
@@ -94,6 +95,7 @@ const Footer = () => {
           <div className="self-stretch flex flex-col text-white font-bold my-auto flex-1 mt-[15px]">
             <h3 className="text-xl">News</h3>
             <div className="bg-[rgba(75,175,71,1)] flex w-[45px] shrink-0 h-1 mt-[19px] rounded-sm" />
+            <div className="w-[7px] h-[7px] bg-[rgba(75,175,71,1)] rounded-full ml-[55px] -mt-[5px]" />
             <div className="flex w-[200px] max-w-full flex-col items-stretch text-base leading-[26px] mt-7">
               <article>
                 <h4 className="max-md:mr-1.5">
@@ -123,6 +125,7 @@ const Footer = () => {
               Contact
             </h3>
             <div className="flex w-[55px] shrink-0 h-1 mt-[19px] rounded-sm border-t-4 border-[rgba(75,175,71,1)]" />
+            <div className="w-[7px] h-[7px] bg-[rgba(75,175,71,1)] rounded-full ml-[65px] -mt-[5px]" />
             <div className="mt-[22px] space-y-4">
               <div className="flex items-center gap-2 leading-loose space-x-2">
                 <img
